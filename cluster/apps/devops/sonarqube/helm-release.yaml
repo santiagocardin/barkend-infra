@@ -23,7 +23,6 @@ spec:
       enabled: true
       annotations:
         kubernetes.io/ingress.class: "nginx"
-        nginx.ingress.kubernetes.io/proxy-body-size: "8m"
       hosts:
       - name: "sonarqube.${SECRET_DOMAIN}"
         path: /
