@@ -17,8 +17,8 @@ spec:
         namespace: flux-system
   values:
     image:
-      repository: sonarqube
-      tag: 8.5.1-community
+      repository: b4bz/homer
+      tag: 21.03.2
       pullPolicy: IfNotPresent
     ingress:
       enabled: true
