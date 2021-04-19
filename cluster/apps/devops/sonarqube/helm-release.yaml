@@ -19,13 +19,13 @@ spec:
       repository: sonarqube
       tag: 8.5.1-community
       pullPolicy: IfNotPresent
-    ingress:
-      enabled: true
-      annotations:
-        kubernetes.io/ingress.class: "nginx"
-      hosts:
-      - name: "sonarqube.${SECRET_DOMAIN}"
-        path: /
+    # ingress:
+    #   enabled: true
+    #   annotations:
+    #     kubernetes.io/ingress.class: "nginx"
+    #   hosts:
+    #   - name: "sonarqube.${SECRET_DOMAIN}"
+    #     path: /
       # tls:
       # - hosts:
       #   - "homer.${SECRET_DOMAIN}"
