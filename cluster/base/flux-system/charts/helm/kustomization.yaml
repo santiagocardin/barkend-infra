@@ -8,3 +8,4 @@ resources:
 - k8s-at-home-charts.yaml
 - oteemo-charts.yaml
 - jenkins-charts.yaml
+- gatekeeper-charts.yaml
